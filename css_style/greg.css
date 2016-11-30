@@ -1,0 +1,926 @@
+.ui-mobile .ui-page{
+color:#000000;
+font-family:"Helvetica", "Times New Roman", Times, serif;
+width:100%;
+max-width:100%;
+min-width:600px;
+padding-top: 10px;
+text-shadow: none !important;
+
+}
+h1,h2,h3,h4,h5,a{font-family:"Georgia", "Times New Roman", Times, serif;}
+
+#wrapper{
+margin-right:auto;
+margin-left:auto;
+margin-top: 0px;
+width:90%;
+max-width:100%;
+
+}
+
+#Content_Menu{
+ display:-webkit-flex;
+display:flex;
+-webkit-flex-direction:row;
+flex-direction:row;  
+width: 100%;
+margin-top: 2%;
+margin-bottom: 2%;
+box-shadow: 1px 1px 8px #123a4f;
+
+    
+}
+
+#Content_Menu #DynamicContent{
+
+ flex:7;
+ -webkit-flex:7;   
+margin: 0;
+ padding: 2%;
+
+
+}
+#logo{
+
+background-color: #96ddcd;
+width: 100%;
+height: auto;
+padding-bottom: 1%;
+box-shadow: 1px 1px 8px 1px #123a4f;
+clear: right;
+
+}
+
+#logo .logo{
+width:8%;
+height:auto;
+margin-left: 10%;
+display: inline;
+border-radius: 5px;
+margin-right: 8%;
+margin-top: 3%;
+
+
+}
+
+#sublogo {width: 50%;
+display: inline;
+ text-align: center;
+
+}
+
+
+#sublogo img{
+    width: 50%;
+    height: auto;
+  
+ 
+}
+
+#sublogo h1{
+     text-align: center;  
+font-family: 'Acme', sans-serif;
+ 
+}
+
+
+
+
+
+.ui-mobile .ui-header{
+    margin:0;
+    padding: 0;
+  order:1;
+  background: none !important;
+  border: none !important;
+   
+    
+}
+
+
+  
+.ui-mobile .ui-navbar{padding-right: 5px !important;
+width: 30% !important;
+margin-bottom: 10px;
+float: right;
+
+
+
+
+}
+
+
+
+ .ui-mobile .ui-navbar ul li a:visited{color: white !important ;
+text-shadow: none !important;}
+
+.ui-mobile .ui-navbar ul li a {
+    
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#097599+24,3d8299+48,2f7e99+53,123a4f+95 */
+background: #097599 !important; /* Old browsers */
+background: -moz-linear-gradient(top,  #097599 24%, #3d8299 48%, #2f7e99 53%, #123a4f 95%)!important; /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #097599 24%,#3d8299 48%,#2f7e99 53%,#123a4f 95%) !important;/* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #097599 24%,#3d8299 48%,#2f7e99 53%,#123a4f 95%)!important;/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#097599', endColorstr='#123a4f',GradientType=0 );
+    font-size: 100% !important;
+    text-shadow: none !important;
+    color: white !important;
+    box-shadow: 1px 1px 8px 1px #FFF;
+}
+
+.ui-mobile .ui-navbar ul li a:hover{
+    background:#66C2FF !important;
+  color:#000 !important;
+    
+}
+
+.ui-mobile .ui-navbar ul li a{
+    
+    margin-right: 3px;
+    border-radius: 5px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    
+    
+}
+
+
+.ui-mobile .ui-footer{
+
+display: block;
+background-color: #96ddcd;
+text-align:center;
+font-style:italic;
+font-size: 80%;
+
+padding-top:1%;
+padding-bottom:1%;
+box-shadow: 1px 1px 8px 1px #123a4f;
+order:4;
+}	 
+
+.ui-mobile .ui-footer h6,.ui-mobile .ui-footer a,.ui-mobile .ui-footer h5{
+color: black;
+text-shadow: none !important;
+text-decoration: none;
+
+}
+
+#menu_games{
+    
+  flex:3;
+ -webkit-flex:3;   
+ margin-left: 2%;
+ border-left: 1px solid  #123a4f;
+ background-color: #dbdde0;
+ padding-bottom: 0;
+ min-width: 300px;
+    
+}
+
+#menu_games h2{
+    text-align: center;
+}
+
+
+#menu_games table tr td a{
+    text-decoration: none;
+}
+
+#menu_games table tr td img{width: 100%;
+height: auto;
+box-shadow: 1px 1px 8px 1px #123a4f;}
+
+#menu_games table{ border-collapse: collapse;
+    table-layout: fixed;
+    
+    overflow: hidden;
+    width: 40%;
+    margin-left: 10%;
+    
+
+}
+
+
+#menu_games table tr td{
+    
+    text-align: center;
+    padding: 5%;
+    border: none;
+    box-sizing: border-box; 
+    width: 140px;
+    
+}
+
+/*  ------------------inc_home------------------------ */
+
+  #DynamicContent #home {padding: 2%;
+       width: 100%;
+   font-size: 120%;
+   text-align: justify;
+
+
+
+}
+
+
+
+
+#home  img{
+    
+    text-align: center;
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+/*  ------------------tic tac toe------------------------ */
+
+
+#paper{
+    width: 60%;
+    background:url("../images/paper2.jpg");
+    background-color: white;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+    background-repeat:no-repeat;
+    padding: 10%;
+  margin-top: 15%;
+padding-bottom: 5%;
+    text-align: center;
+
+    
+}
+
+#paper input{
+    
+    width: 90px;
+    height: 50px;
+    font-size: 2.1em;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+#paper table{
+    
+
+  border-collapse: collapse;
+    table-layout: fixed;
+    text-align: center;
+    overflow: hidden;
+    margin-left: 10%;
+  
+}
+
+#paper table tr td{
+    
+    text-align: center;
+    padding: 5%;
+    border: 2px solid black;
+    width: 130px;
+    box-sizing: border-box; 
+    
+}
+
+
+#paper table tr:first-child td{
+    
+    border-top: 0;
+}
+
+
+ #paper table tr:nth-child(3) td{
+    
+    
+    border-bottom: none;
+}
+
+#paper table tr td:first-child{
+    border-left: 0;
+}
+
+
+#paper table tr td:last-child{
+    border-right: 0;
+}
+
+
+
+#b1,#b2,#b3,#start,#roll,#b5,#b7{
+    
+    
+    border: 1px solid #576647;
+   background: #6aa436;
+   background: -webkit-gradient(linear, left top, left bottom, from(#c3e3a1), to(#6aa436));
+   background: -webkit-linear-gradient(top, #c3e3a1, #6aa436);
+   background: -moz-linear-gradient(top, #c3e3a1, #6aa436);
+   background: -ms-linear-gradient(top, #c3e3a1, #6aa436);
+   background: -o-linear-gradient(top, #c3e3a1, #6aa436);
+   background: -ms-linear-gradient(top, #c3e3a1 0%, #6aa436 100%);
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #0c0d0c 0 1px 0;
+   color: #ffffff;
+   font-family: helvetica, serif;
+   padding: 7px 18px;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+    margin-left: 2%;
+    width: 30%;
+}
+
+#b3{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5%;
+}
+
+
+.background{
+  
+//* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#077499+0,e8f8ff+49,077499+100 */
+background: #077499; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #077499 0%, #e8f8ff 49%, #077499 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #077499 0%,#e8f8ff 49%,#077499 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #077499 0%,#e8f8ff 49%,#077499 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#077499', endColorstr='#077499',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+/*  ------------------Game21------------------------ */
+
+#Results{margin-bottom: 3%;
+display: block;
+width: 80%;
+
+margin-left: 68%;
+}
+
+
+#Results table {margin:1% 3%;
+table-layout: fixed; 
+border-collapse: collapse;
+line-height: 1.4em;
+ 
+    padding: 0;
+width: 30%;
+   
+    
+
+
+}
+#Results table thead tr th{
+    
+  font-size:100%;
+  text-align: right;
+
+text-shadow: none !important;
+
+    
+}
+
+
+#Results table tr td{
+    font-size:120%;
+   
+    text-align: center;
+   padding-top: 1%;
+    padding-bottom: 1%;
+    width: 50px;
+    border: 1px solid black; 
+    text-shadow: none !important;
+    color:#c72c2c;
+}
+
+#table{
+  
+    margin-left: 5%;
+    background: url(../images/table.jpg);
+    width: 100%;
+    height: auto;
+      display:-webkit-flex;
+  display:flex;
+-webkit-flex-direction:column;
+flex-direction:column; 
+    width: 90%;
+    clear: right;
+    
+}
+
+
+#table_dealer{
+    
+ -webkit-flex:5;
+  flex:5;      
+border-bottom: medium groove #88FFFF;
+    padding: 3%;
+    padding-bottom: 10%;
+
+}
+
+
+#table_user{ -webkit-flex:5;
+  flex:5;   
+ padding: 3%;
+    padding-bottom: 10%;
+
+}
+
+#Utotal,#Dtotal{
+    
+    float: right;
+    font-weight: bold;
+    margin: 0;
+      text-shadow: none !important;
+   color:white !important;
+}
+
+
+
+
+#options #b1,#options #b2{
+    display: inline;
+    
+}
+
+#options{
+ width: 80%;
+
+    text-align: center;
+    margin: 3%;
+    margin-left: 10%;
+    
+    padding-top: 1%;
+       padding-bottom: 3%;
+    padding-left: 0;
+    
+    
+}
+
+.hrstyle{width: 120px;
+  margin-left: 0;
+}
+
+
+#b2{
+     background: #c72c2c;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f25454), to(#c72c2c));
+   background: -webkit-linear-gradient(top, #f25454, #c72c2c);
+   background: -moz-linear-gradient(top, #f25454, #c72c2c);
+   background: -ms-linear-gradient(top, #f25454, #c72c2c);
+   background: -o-linear-gradient(top, #f25454, #c72c2c);
+    
+    
+}
+.msgContent{
+    
+    color: black;
+    font-size: 2em;
+   font-family: 'Bungee Inline', cursive;    
+    width: 100%;
+    
+}
+
+.msg,.msgContent{
+    
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+
+    
+}
+
+
+img{
+    
+    width: auto;
+    height: 100px;
+     margin-right: 3px;
+}
+
+
+.clear{clear: both;}
+
+
+#game21{
+width: 100%;
+margin-top: 10%;
+
+}
+
+/*  ------------------betTheRoll------------------------ */
+#content_Dice{
+    
+    
+    width: 100%;
+    margin-top: 15%;
+}
+
+#dice_container{
+    
+ display:-webkit-flex;
+display:flex;
+-webkit-flex-direction:row;
+flex-direction:row;   
+width: 100%;
+margin-bottom: 3%;
+    
+    
+}
+
+#betTable{
+    flex:8;
+ -webkit-flex:8;   
+ background: url(../images/table.jpg);
+ height: 400px;
+ border-radius: 5px;
+ box-shadow: 1px 1px 8px #000; 
+}
+
+
+#compData{
+    
+     flex:2;
+ -webkit-flex:2;   
+ background-color: white;
+ margin-left: 3%;
+ font-weight: bold;
+ box-shadow: 1px 1px 8px #000;
+ height: 200px;
+ padding: 2%;
+ border-radius: 5px;
+}
+
+
+#compData h4{text-align: center;}
+
+#compData table{
+    
+   border-collapse: collapse;
+    table-layout: fixed;
+    text-align: center;
+    width: 90px;
+}
+
+#compData table tr td{
+    
+    border: 1px solid black;
+    width: 100px;
+    padding: 2%;
+    font-size: 1em;
+    
+}
+
+ #content_Dice table, #content_Maze table,#UserData table{
+    
+  border-collapse: collapse;
+    table-layout: fixed;
+
+   
+  
+}
+
+
+
+
+
+#UserData{
+ 
+background: #a17928; /* Old browsers */
+background: -moz-linear-gradient(top, #a17928 0%, #fdbf3f 26%, #fdbf3f 73%, #a17928 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #a17928 0%,#fdbf3f 26%,#fdbf3f 73%,#a17928 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #a17928 0%,#fdbf3f 26%,#fdbf3f 73%,#a17928 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a17928', endColorstr='#a17928',GradientType=0 ); /* IE6-9 */
+width: 60%;  
+padding: 2%;
+padding-left: 5%;
+border-radius: 15px;
+
+}
+
+
+
+
+#UserData table tr td h5{
+    
+    margin: 0;
+    text-align: left;
+}
+#UserData table tr td{
+    
+    width: 250px;
+}
+
+#UserData div.ui-input-text { width: 70px !important;
+
+}
+    
+
+
+#CompBank,#UserBank{
+   
+    color: green;
+}
+
+#CompBet,#UserBet{
+  
+    color: red;
+}
+
+#start{width: 50px;
+text-align: left;
+margin: 0;
+margin-left: 5px;}
+
+#roll{ background:#72D6F7;
+           width: 80px;
+}
+
+#UserData table tr td:nth-child(2),#UserData table tr td:nth-child(4){
+
+    width: 50px;
+    padding: 0;
+  
+
+}
+
+/*  ------------------GregBoogle------------------------ */
+
+#content_boggle{
+    width: 90%;
+    margin-top: 15%;
+    margin-left: 5%;
+
+    
+}
+
+#content_boggle table{width: 100%;}
+
+
+#content_boggle table td{
+background: #9A9CA5;
+
+}
+
+#content_boggle table td img{
+ width: 80%;
+height: auto;}
+
+#content_boggle{
+    display:-webkit-flex;
+  display:flex;
+-webkit-flex-direction:row;
+flex-direction:row; 
+    
+    
+}
+
+#content_boggle #Letter_Player{
+    
+   -webkit-flex:5;
+  flex:5;    
+ height: 400px !important;
+  padding: 2% !important;
+ box-shadow: 1px 1px 8px #000;
+ margin-right: 5%;
+}
+
+
+
+#Letter_Player table{
+    
+      border-collapse: collapse;
+    table-layout: fixed;
+
+    width:100%;
+
+}
+
+#Letter_Player table tr td{width: 100px;
+  padding: 2%;
+ background: none !important;
+}
+
+#Letter_Player table tr:first-child td:nth-child(2)
+{
+  width: 20px;  
+    
+}
+#Letter_Player table tr:first-child td:nth-child(3){width: 23px;}
+
+
+#content_boggle #boggle_table,#BoggleResults{
+    
+     -webkit-flex:5;
+  flex:5;     
+  padding-top: 0;
+    
+}
+
+#BoggleResults{
+    
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  
+  margin: -1px;
+  padding: 20px;
+  overflow: hidden;
+  border: none;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+ font-family: 'Titillium Web', sans-serif; 
+  color: rgba(0,0,0,1);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: #d4edf7;
+  -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.4) ;
+  box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.4) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+}
+
+
+
+
+
+
+#boggle_table #timer{
+
+color: black;
+    font-weight: bold;
+     font-size: 18px;
+    padding: 2%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    box-shadow: 1px 1px 8px red;
+}
+
+#Letter_Player table tr td #buttonok img,#Letter_Player table tr td#buttonRemove img{
+    width: 100%;
+    height: auto;
+   
+}
+
+
+
+ #Letter_Player #buttonok,#Letter_Player #buttonRemove{
+    
+    width:80%;
+    cursor: pointer;
+
+   padding:1%;
+
+     background: white;
+     border-radius: 5px;
+    
+    
+
+
+}
+
+#Letter_Player #buttonRemove{
+    width:80%;  
+    padding-left: 5px;
+}
+
+/*  ------------------Memory------------------------ */
+
+#content_match{
+    background-color: #CFF3FF;
+
+    border: 3px solid white;
+   border-radius: 15px;
+  height: 95%;
+  padding-top: 3%;
+  padding-left: 3%;
+  width:85%;
+  margin-top: 15%;
+  margin-left: 8%;
+}
+
+.front img{
+    
+    border: 2px solid white;
+    
+}
+
+#content_match #divTable{
+   
+    display: table;
+    width: 80%;
+    padding: 0;
+ min-width: 600px;
+    margin-left: 3%;
+    
+}
+
+#content_match_Table{
+    
+    display: block;
+ 
+ 
+}
+
+
+.card,.front,.back{
+    width: 120px;
+    height: 120px;
+    
+}
+
+
+.card{margin: 0;}
+
+
+ #content_match #divTable .divTableRow {
+	display: table-row;
+  
+   
+}
+
+#content_match #divTable .divTableRow  .divTableCell img{
+    
+    border-radius: 5px;
+     box-shadow: 1px 1px 8px black;
+    width: 120px;
+    height: 120px;
+    margin: 0;
+ 
+}
+
+#content_match  #divTable .divTableRow  .divTableCell{
+    display: table-cell;
+      width: 120px;
+    height: 120px; 
+    padding-bottom: 3%;
+   
+}
+
+
+
+
+
+
+#b7{
+    
+    display: block;
+    margin-top: 3%;
+        margin-bottom: 5%;
+     padding: 7px 25px;
+     margin-left: 40%;
+}
+
+
+/*  ------------------Maze----------------------- */
+
+ #content_Maze table{
+    
+
+  border-collapse: collapse;
+    table-layout: fixed;
+    text-align: center;
+   width: 100%;
+  
+}
+
+#content_Maze table tr td{width: 100%;}
+
+#content_Maze table td{background: #02DEFE;
+border: 2px solid white;
+}
+
+#content_Maze table td{
+padding: 0;
+overflow: hidden;}
+
+#content_Maze table td img{ width: 100%;
+height: auto;}
+
+#content_Maze{
+ padding: 1%;
+ border:0;
+ margin-left: 5%;
+
+    margin-top: 6%;
+    
+}
+
+#b5{margin-left: 45%;}
+
+
